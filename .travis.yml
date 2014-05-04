@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 0.10
+notifications:
+  email: false
+deploy:
+  provider: heroku
+  api_key:
+    - secure: "UfiqjiC1S7zqeD7lythCYbAbpooa/5LSvZqLY0tNe64HjBMjM/rsnwLJ8RlAef/MOFlVhhF2CbJOv4td6x/7AP8Uojg6f8oT7OWaL57xW1FjAk9VxWwsqBOxjoIPh7Vi60icCuXF44AzX50M+H8XJUs9i34kk9TqHukyTREm9vM="
+  app:
+    master: frozen-atoll-1885
